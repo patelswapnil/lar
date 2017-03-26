@@ -1,0 +1,23 @@
+{
+  "name": "lar",
+  "version": "0.1.0",
+  "description": "Location based Augmented reality",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patelswapnil/lar.git"
+  },
+  "author": "Swapnil Patel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patelswapnil/lar/issues"
+  },
+  "homepage": "https://github.com/patelswapnil/lar#readme",
+  "dependencies": {
+    "express": "^4.15.2"
+  }
+}

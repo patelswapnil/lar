@@ -1,0 +1,12 @@
+.DS_Store
+.project
+Thumbs.db
+node_modules
+npm-debug.log
+*.rdb
+.vagrant
+.tags*
+.env
+.floo
+.flooignore
+.htpasswd
