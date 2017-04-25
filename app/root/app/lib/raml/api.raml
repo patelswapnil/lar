@@ -1,0 +1,16 @@
+#%RAML 1.0
+title: LAR API
+version: v1.0
+protocols: [ HTTP, HTTPS ]
+baseUri: https://lar.local:4000
+
+/{version}:
+  /member:
+    get:
+    /{member}:
+      get:
+  /point-of-interest:
+    get:
+      queryParameters:
+        lat:
+        long:

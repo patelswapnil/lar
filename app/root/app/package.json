@@ -19,6 +19,7 @@
   "homepage": "https://github.com/patelswapnil/lar#readme",
   "dependencies": {
     "express": "^4.15.2",
-    "nconf": "^0.8.4"
+    "nconf": "^0.8.4",
+    "osprey": "^0.4.0"
   }
 }

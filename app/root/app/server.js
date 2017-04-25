@@ -1,3 +1,8 @@
-var app = require('./app')();
+var app = require('./app');
 
-app.startServer();
+app.then( obj => {
+    obj.startServer();
+})
+.catch(err => {
+    throw new Error(err);
+});
